@@ -1,0 +1,377 @@
+html {
+    background-color: lightgray;
+}
+
+#whi {
+     background-color: 
+}
+header {
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    z-index: 2000;
+    height: 64px;
+    border-radius: 15px;
+    /* flex properties*/
+    display: flex;
+    flex-wrap: wrap;
+    /* flex properties end*/
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.items {
+    margin-top: 18px;
+    display: inline-block;
+    float: right;
+    margin-left: 16px
+}
+
+#logo {
+    margin-left: 24px;
+}
+
+#logoblack, #logogrey {
+    height: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#logogrey {
+    color: gray;
+}
+
+#left {
+    margin-left: 1145px;
+}
+
+#right {
+    margin-right: 24px;
+}
+
+section {
+    background-color: lightgrey;
+    display: flex;
+}
+
+.banner {
+    margin-left: 24px;
+    margin-top: 32px;
+    width: 60%;
+    margin-bottom: 32px;
+    margin-right: 24px;
+}
+
+.right {
+    margin-top: 300px;
+    max-height: 100px;
+}
+
+.big {
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+#big {
+    margin-left: 24px;
+    width: 900px;
+}
+
+section button {
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition-property: background-color, text-decoration, color;
+    transition-duration: 1s;
+}
+
+section button:hover {
+    background-color: aliceblue;
+    text-decoration: underline;
+    color: black;
+}
+
+#articl {
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.pi {
+    margin-left: 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+.side {
+    display: flex;
+    margin-left: 1200px;
+    top: 920px;
+    width: 650px;
+    position: absolute;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+#ori {
+    margin-top: 45px;
+    font-size: 40px;
+    margin-left: 24px;
+}
+
+#da {
+    margin-left: 242px;
+    margin-top: 110px;
+    position: absolute;
+}
+
+#wha {
+    position: absolute;
+    margin-left: 242px;
+    margin-top: 150px;
+    text-decoration: none;
+}
+
+#num2 {
+    top: 1150px;
+    width: 650px;
+}
+
+#num3 {
+    top: 1380px;
+    width: 650px;
+    background-color: lightgray;
+}
+
+.side img {
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#h {
+    font-size: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.text {
+    height: auto;
+    margin-right: 32px;
+    margin-bottom: 0px;
+}
+
+.size {
+    width: 532px;
+    height: 272px;
+    text-align: center;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.det {
+    background-color: black;
+    font-family: monospace;
+    font-size: 40px;
+    margin-top: 136px;
+    opacity: .75;
+    border-radius: 10px
+}
+
+.ler {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: .75;
+    text-decoration: underline;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.ler:hover {
+    opacity: 1;
+}
+
+#software {
+    background-image: url('../images/course-software.jpg');
+    margin-left: 100px;
+    margin-right: 32px;
+}
+
+#compute {
+    background-image: url('../images/course-computer-art.jpg');
+}
+
+#desi {
+    background-image: url('../images/course-design.jpg');
+    margin-left: 32px;
+}
+
+#data {
+    background-image: url('../images/course-data.jpg');
+    margin-left: 100px;
+    margin-right: 32px;
+    margin-top: 16px;
+}
+
+#busi {
+    background-image: url('../images/course-business.jpg');
+    margin-top: 16px;
+}
+
+#market {
+    background-image: url('../images/course-marketing.jpg');
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+#ti {
+    text-align: center;
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 100px;
+}
+
+#thi {
+    text-align: center;
+    height: 67px;
+    margin-top: 32px;
+    font-size: 40px;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+footer video {
+    height: 500px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+}
+
+footer h1, footer p {
+    margin-left: 24px;
+}
+
+#foot {
+    display: flex;
+    position: absolute;
+    top: 2645px;
+    margin-left: 1000px;
+    background-color: lightgray;
+    width: 800px
+}
+
+#foot h1 {
+    height: 80px;
+    margin-top: 90px;
+}
+
+#foot img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px; 
+}
+
+#foot p {
+    height: 20px;
+    position: absolute;
+    margin-left: 313px;
+    margin-top: 140px;
+    margin-bottom: 32px;
+}
+
+#foote {
+    display: flex;
+    position: absolute;
+    top: 2949px;
+    margin-left: 1000px;
+    width: 800px
+}
+
+#foote img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px; 
+}
+
+#foote h1 {
+    height: 80px;
+    margin-top: 90px;
+}
+
+#foote p {
+    height: 20px;
+    position: absolute;
+    margin-left: 313px;
+    margin-top: 140px;
+}
+
+.footers {
+    margin-top: 16px;
+    color: gray;
+    border-top: 1px solid lightgray;
+}
+
+#oright {
+    position: absolute;
+    margin-left: 1795px;
+    top: 3310px;
+}
+
+.icon {
+    display: none;
+}
+
+@media only screen and (max-width: 479px) {
+    .items {
+        display: none;
+    }
+    
+    .icon {
+        display: block;
+    }
+    
+    html {
+        display: block;
+    }
+    
+    #no {
+        display: none;
+    }
+    
+    .size {
+      display: none;
+    }
+    
+    #foot {
+        display: none;
+    }
+    
+    #foote {
+        display: none;
+    }
+    
+    footer p {
+        display: none;
+    }
+}
